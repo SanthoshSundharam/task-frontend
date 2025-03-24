@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "vue": "^2.7.7",
+    "vue-router": "^3.6.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^6.0.2",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "jsdom": "^20.0.0",
+    "terser": "^5.14.2",
+    "vite": "^6.2.3",
+    "vitest": "^3.0.9",
+    "vue-template-compiler": "^0.1.0"
+  }
+}
