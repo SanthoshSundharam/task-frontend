@@ -104,9 +104,7 @@
 
 <style scoped>
 
-.form-bg{
-   
-}
+
 
 </style>
   
