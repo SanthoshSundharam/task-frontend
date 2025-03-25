@@ -1,22 +1,17 @@
+<!-- src/App.vue -->
 <template>
   <div id="app">
+    <NavBar />
     <router-view />
   </div>
 </template>
 
-
 <script>
-import LoginPage from "./components/LoginPage.vue";
-import RegistrationPage from "./components/RegistrationPage.vue";
-import Home from "./components/Home.vue";
-import TaskList from "./components/TaskList.vue";
-
-
+import NavBar from "./components/views/NavBar.vue"
 export default {
+  name: "App",
   components: {
-    LoginPage,
-    RegistrationPage,
-    Home
-  },
-};
+    NavBar
+  }
+}
 </script>
